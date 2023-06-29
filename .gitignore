@@ -1,0 +1,9 @@
+node_modules
+package-lock.json
+dist
+
+app/index.html
+app/css/style.min.css
+app/js/main.min.js
+app/images/src
+app/fonts/src
