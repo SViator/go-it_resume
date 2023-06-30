@@ -2,3 +2,133 @@
 @import 'fonts';
 @import 'reset';
 @import 'global';
+
+
+/*-- main --*/
+main {
+	max-width: 525px;
+	margin-top: 102px;
+	margin-left: 88px;
+}
+
+.header {
+	margin-bottom: 65px;
+
+	&__subtitle {
+		margin-bottom: 20px;
+	}
+
+	&__title {
+		margin-bottom: 30px;
+	}
+}
+
+/**** Projects ****/
+.projects {
+	margin-bottom: 52px;
+
+	&__title {
+		margin-bottom: 12px;
+	}
+
+	&__link {
+		color: #005FFF;
+		text-decoration: underline;
+	}
+}
+
+.link-number {
+	display: inline-block;
+	width: 15px;
+	margin-right: 12px;
+	font-weight: bold;
+	color: #000;
+}
+
+/**** Experience ****/
+.experience {
+	margin-bottom: 44px;
+
+	&__title {
+		margin-bottom: 16px;
+	}
+
+	&__item {
+		margin-bottom: 16px;
+	}
+
+	&__item-list {
+		list-style: disc inside;
+	}
+}
+
+.period {
+	margin: 8px 0;
+	font-size: 12px;
+	line-height: 15px;
+	color: #A8A8A8;
+}
+
+.black {
+	color: #000;
+}
+
+.institution {
+	color: #6D9BF5;
+}
+
+
+/***** Education *****/
+.education {
+	margin-bottom: 108px;
+
+	&__title {
+		margin-bottom: 12px;
+	}
+}
+
+
+/**** Sidebar ****/
+.sidebar {
+	width: 370px;
+	color: #161D2A;
+	background-color: #E0EBFE;
+
+	&__item {
+		margin-bottom: 48px;
+		margin-left: 40px;
+	}
+
+	&__item-title {
+		margin-bottom: 20px;
+	}
+
+	&__list {
+		list-style: disc inside;
+	}
+
+	&__list-item::marker {
+		color: #6D9BF5;
+	}
+}
+
+.photo {
+	display: block;
+	margin-top: 40px;
+	margin-left: 0;
+}
+
+.contacts {
+	&-item {
+		margin: 0;
+	}
+
+	&-type {
+		margin-right: 8px;
+		font-weight: 700;
+	}
+
+	&-email {
+		color: #2979FF;
+	}
+}

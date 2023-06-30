@@ -9,119 +9,141 @@
 </head>
 
 <body>
-	<div class="wrapperr">
+	<div class="container">
+		<div class="wrapper">
 
-		<header class="info__header">
-			<h2>Front-End Developer</h2>
-			<h1>Taras Goitinskiy</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-		</header>
+			<aside class="sidebar">
+				<picture class="sidebar__item photo">
+					<source type="image/avif" srcset="images/content/frame-1.avif" />
+					<source type="image/webp" srcset="images/content/frame-1.webp" />
+					<img src="images/content/frame-1.jpg" alt="My photo" width="370px">
+				</picture>
 
-		<main class="main">
-			<div class="projects">
-				<h3 class="projects__title">Projects</h3>
-				<ol class="projects__list">
+				<div class="sidebar__item contacts">
+					<h2 class="sidebar__item-title">Contacts</h2>
+					<p class="contacts-item">
+						<span class="contacts-type">C: </span>
+						<a class="contacts-number" href="tel:+388888888888">+38 888 888 88 88</a>
+					</p>
+					<p class="contacts-item">
+						<span class="contacts-type">E: </span>
+						<a class="contacts-email" href="mailto:t.goitinskiy@gmail.com">t.goitinskiy@gmail.com</a>
+					</p>
+				</div>
 
-					<li class="projects__list-item">
-						<a href=" https://hellen.p.goit.global/">https://hellen.p.goit.global/</a>
-						<img src="images/Vector 1.svg" alt="svg">
-						<span>[ HTML5, CSS3 ]</span>
-					</li>
+				<div class="sidebar__item tech-skills">
+					<h2 class="sidebar__item-title">Tech Skills</h2>
+					<ul class="sidebar__list">
+						<li class="sidebar__list-item">HTML5</li>
+						<li class="sidebar__list-item">CSS3</li>
+						<li class="sidebar__list-item">GIT</li>
+						<li class="sidebar__list-item">WebPack</li>
+						<li class="sidebar__list-item">JavaScript</li>
+						<li class="sidebar__list-item">React.js</li>
+						<li class="sidebar__list-item">Node.js</li>
+					</ul>
+				</div>
 
-					<li class="projects__list-item">
-						<a href=" https://cryptohub.p.goit.global/">https://cryptohub.p.goit.global/</a>
-						<img src="images/Vector 2.svg" alt="svg">
-						<span>[ JavaScript ]</span>
-					</li>
+				<div class="sidebar__item soft-skills">
+					<h2 class="sidebar__item-title">Soft Skills</h2>
+					<ul class="sidebar__list">
+						<li class="sidebar__list-item">Scrum</li>
+						<li class="sidebar__list-item">Agile</li>
+						<li class="sidebar__list-item">GTD</li>
+						<li class="sidebar__list-item">Teamwork</li>
+					</ul>
+				</div>
+			</aside>
 
-					<li class="projects__list-item">
-						<a href=" https://kidslike.p.goit.global/">https://kidslike.p.goit.global/</a>
-						<img src="images/Vector 3.svg" alt="svg">
-						<span>[ React.js, Node.js ]</span>
-					</li>
+			<main class="main">
+				<header class="header">
+					<h4 class="header__subtitle">Front-End Developer</h4>
+					<h1 class="header__title">Taras Goitinskiy</h1>
+					<p class="header__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+				</header>
 
-				</ol>
-			</div>
+				<div class="projects">
+					<h2 class="projects__title">Projects</h2>
+					<ol class="projects__list">
+						<li class="projects__list-item">
+							<span class="link-number">1. </span>
+							<a class="projects__link" href=" https://hellen.p.goit.global/">https://hellen.p.goit.global/</a>
+							<img src="images/Vector 1.svg" alt="svg">
+							<span>[ HTML5, CSS3 ]</span>
+						</li>
+						<li class="projects__list-item">
+							<span class="link-number">2. </span>
+							<a class="projects__link" href=" https://cryptohub.p.goit.global/">https://cryptohub.p.goit.global/</a>
+							<img src="images/Vector 2.svg" alt="svg" width="138px"><span>[ JavaScript ]</span>
+						</li>
 
-			<div class="experience">
-				<h3 class="experience__title">Work Experience</h3>
-				<div class="experience__list">
-					<div class="experience__item">
-						<h4>Front-End Developer Freelance </h4>
-						<p>September 2019 - up to now | Country</p>
-						<ul>
-							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-							<li>Risus commodo viverra maecenas.</li>
-							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
-						</ul>
-					</div>
-					<div class="experience__item">
-						<h4>Manager Banderogusak & Co.</h4>
-						<p>March 2015 - October 2018 | Country</p>
-						<ul>
-							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
-							<li>Quis ipsum suspendisse ultrices gravida.</li>
-							<li>Risus commodo viverra maecenas.</li>
-						</ul>
-					</div>
-					<div class="experience__item">
-						<h4>Manager BestUA Corp.</h4>
-						<p>June 2014 - February 2015 | Country</p>
-						<ul>
-							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-							<li>Quis ipsum suspendisse ultrices gravida.</li>
-							<li>Risus commodo viverra maecenas.</li>
-						</ul>
+						<li class="projects__list-item">
+							<span class="link-number">3. </span>
+							<a class="projects__link" href=" https://kidslike.p.goit.global/">https://kidslike.p.goit.global/</a>
+							<img src="images/Vector 3.svg" alt="svg">
+							<span>[ React.js, Node.js ]</span>
+						</li>
+					</ol>
+				</div>
+
+				<div class="experience">
+					<h2 class="experience__title">Work Experience</h2>
+					<div class="experience__list">
+
+						<div class="experience__item">
+							<h3 class="experience__item-title">Front-End Developer <span class="institution">Freelance</span></h3>
+							<p class="period">September 2019 - up to now
+								<span class="black">|</span> Country
+							</p>
+							<ul class="experience__item-list">
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+								<li>Risus commodo viverra maecenas.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+							</ul>
+						</div>
+
+						<div class="experience__item">
+							<h3 class="experience__item-title">Manager
+								<span class="institution">Banderogusak & Co.</span>
+							</h3>
+							<p class="period">March 2015 - October 2018
+								<span class="black">|</span> Country
+							</p>
+							<ul class="experience__item-list">
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
+								<li>Quis ipsum suspendisse ultrices gravida.</li>
+								<li>Risus commodo viverra maecenas.</li>
+							</ul>
+						</div>
+
+						<div class="experience__item">
+							<h3>Manager
+								<span class="institution">BestUA Corp.</span>
+							</h3>
+							<p class="period">June 2014 - February 2015
+								<span class="black">|</span> Country
+							</p>
+							<ul class="experience__item-list">
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+								<li>Quis ipsum suspendisse ultrices gravida.</li>
+								<li>Risus commodo viverra maecenas.</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div>
-				<h3>Education</h3>
-				<h4>National University of Management</h4>
-				<h5>Management</h5>
-				<p>September 2009 - June 2014 | Country</p>
-			</div>
-		</main>
+				<div class="education">
+					<h2 class="education__title">Education</h2>
+					<h3 class="institution">National University of Management</h3>
+					<h5>Management</h5>
+					<p class="period">September 2009 - June 2014
+						<span class="black">|</span> Country
+					</p>
+				</div>
+			</main>
 
-		<aside>
-			<picture>
-				<source type="image/avif" srcset="images/content/frame-1.avif" max-width="300px" />
-				<source type="image/webp" srcset="images/content/frame-1.webp" max-width="300px" />
-				<img src="images/content/frame-1.jpg" alt="My photo" max-width="300px">
-			</picture>
-
-			<div>
-				<h3>Contacts</h3>
-				<p>C: <a href="tel:+388888888888">+38 888 888 88 88</a></p>
-				<p>E: <a href="mailto:t.goitinskiy@gmail.com">t.goitinskiy@gmail.com</a></p>
-			</div>
-
-			<div>
-				<h3>Tech Skills</h3>
-				<ul>
-					<li>HTML5</li>
-					<li>CSS3</li>
-					<li>GIT</li>
-					<li>WebPack</li>
-					<li>JavaScript</li>
-					<li>React.js</li>
-					<li>Node.js</li>
-				</ul>
-			</div>
-
-			<div>
-				<h3>Soft Skills</h3>
-				<ul>
-					<li>Scrum</li>
-					<li>Agile</li>
-					<li>GTD</li>
-					<li>Teamwork</li>
-				</ul>
-			</div>
-		</aside>
-
+		</div>
 	</div>
 
 </body>
