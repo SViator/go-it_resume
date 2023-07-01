@@ -120,8 +120,6 @@ function building() {
 		'app/js/main.min.js',
 		'app/images/*.*',
 		'app/images/content/*.*',
-		'!app/images/*.svg',
-		'app/images/sprite.svg',
 		'app/fonts/*.*'
 	], {base: 'app'})
 		.pipe(dest('dist'))
